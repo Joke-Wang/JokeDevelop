@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E345FA2A63478A1969665544035D96 /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 333FB121FF4743E62BD0BBFB1751D5AD /* RealReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0774EE31DB17F79F8887A5E5D2266F9E /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F43BA529ACE3FCE96BF542F59985FB /* PingFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		134C5D43D601EF04789A1F1F8512C413 /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F679A121CA353417E06BDC9E60C6461 /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		163C5F90DD40DECAA0AA267EE0C5A52B /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF796EC152A302D301AF6F26040AEBE5 /* PingHelper.m */; };
+		1654DDC63A60D7EB17D70E0D1308E5EF /* jetfire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE67ED716F01AC307EE21EC610A6058 /* jetfire-dummy.m */; };
+		224D88332BFE1B79B676ECB5A8365A10 /* JFRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B885BE9DEEAF353CFDA97DB3D768C23 /* JFRWebSocket.m */; };
+		2848F28947436B07D6E2BF07A2F5EBB5 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = E501DD4EA1B6F075B5054716BAA4785E /* ReachStateLoading.m */; };
+		2A3DCA636A111B74C68127A9DC718444 /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C8073C169207F33600596704BA5631 /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30567FC279A2BDFF02D88F9B9619273E /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F5AECBB91A2F8238CE027193D2E96 /* SocketRocket-dummy.m */; };
+		3A145150E7FE78690ECAC248C659495C /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDD87E95EFE6893C51314120B2D3736 /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FFC00117D4D0699BCB65759C3A90F5A /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF01250FB9BEBABDB323E608E6AA1D /* FSMEngine.m */; };
+		5B1E596AE511B83A6B679ADFAD60C80D /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D43480CFB1B8A53AB95AD7542971D7 /* LocalConnection.m */; };
+		5C4AE0B5661DF3C4306E54C364C2E264 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 65483AAB2821117AD13BA97942BBDEDC /* ReachState.m */; };
+		625F5EFE87614D712F9D9B9ADE2EDE46 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A39B70B43A928B9F70A4F113D9EC4E /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62E9A72E3866C31F092B794A1F1A4019 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DC9CEBA0160EFE021603FF33C79874 /* FSMStateUtil.m */; };
+		666957DA220EC2E85CE0DA106E49A3BA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF8953913F771FEE4DB535ABE96F8C5 /* CFNetwork.framework */; };
+		66CD0E43101451372AEEB22BA20AC601 /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C840F4BD74BE1A06D42E89E8229F147 /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		695A9CE7A25773138063329293BF874E /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = 179BF9056E58FBF73FB7B5088CA7219F /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AEFC6582BF91431259EE3D442C44986 /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B684B7FC87FFEC4F63BA40250836FFC /* RealReachability-dummy.m */; };
+		70A0848A0EAF21A4B7B27FAC5CFC8DF9 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CA44CA72C3FB2F2DA15D2B632063B /* ReachStateWWAN.m */; };
+		81A880C667E9DDF7467EEF10874965E1 /* WebsocketStompKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1819F932153204753E72A60611F5B8B /* WebsocketStompKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8314F6BE92C97F5284B1FA35DDCEB8E0 /* JFRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B83BC7EA2A878766B13184DFA832604C /* JFRWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83BF5E47ED2D3E529E81364728DEDCA4 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B73625A2AA469575E82A739A8EA9C3 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A99EB8FB235377144516F65BFEFFD41 /* WebsocketStompKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3171C5C53D740F15D07ACBB86CDB2 /* WebsocketStompKit-dummy.m */; };
+		8E9C8DEB7FE98CA3EB7B9012E9E67EEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040DA2653C94F96FDEAE767C9EDAEE30 /* Security.framework */; };
+		936DB023278C80DAD5FC7850AC772CD6 /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0AE5FF3E8C16A23A853E8FC518C423 /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		941570EED872977E84AEAD9ADDB6EFFD /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9108F361D9D2914A09F3234053C72 /* RealReachability.m */; };
+		959287D5FD7D032271383FFD9AD63E3D /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 575DC803005AEACD72BB25AFAA5C5A68 /* LocalConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98DD1BE6D96AE9020C026B4EAB3ED338 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AF74658F36F77F9484AA9FDF13AF46AA /* SocketRocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0A77A6165E6271BBC9B2BFCA3514708 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8CBB93327B19B38DB090AD7F0D5F77 /* ReachStateUnloaded.m */; };
+		AFC4C0B51E0880FBA52CF0B1237A1C24 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE333B13E8A2EC289BDC7CE5DB5716 /* SRWebSocket.m */; };
+		C0D6F0F0567A485FDD121414F3BFD0F8 /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0131D66A09F708B4012270DA33A28B77 /* ReachState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7D8A2A90B716085C2EB91AF3D55B0EB /* Pods-WebsocketStompTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA970E9FC2303EB3A64C8A619945AAA /* Pods-WebsocketStompTest-dummy.m */; };
+		CB5FF73960C6B031A3A95F7813EACC4B /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E088FCD57E98570D6ED82F3FBE83DCC /* PingHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFB371C94DC03EF3565E341B4AA45CF2 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 802A1CCA78B1302421E0170C8B8E444F /* ReachStateWIFI.m */; };
+		D6D5E3CC6B075AD7EF2EE79201883FED /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C01C9D67E2656A94A5463F7DA95DDB /* PingFoundation.m */; };
+		F0953FD0DF32DE40EDA95961C7EB1891 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 336B6CE66A4D48F9E7627D5C28C186F2 /* ReachStateUnReachable.m */; };
+		F6B48C429A34FC74F2DEBA605D8FE480 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C00894B4A7208E952ECE309C674B36 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFCBFD9182D158E8FB16002C79398AAD /* WebsocketStompKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB55C699C8AFBFBB7CF7BBC82EADBC /* WebsocketStompKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C36E7196041842B1768AD0D3D64AC4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88D2DA3F2E5E34E1336C15284A18C6B;
+			remoteInfo = SocketRocket;
+		};
+		98FD37E1E36B9F50A24FCD8306169AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BC7A42DFCDC320144C03B2CD854A63;
+			remoteInfo = jetfire;
+		};
+		A811DE14CC875CB6930BD3D2A40E32E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6319B2CA99D25B8D9C6E6C182E5E966E;
+			remoteInfo = RealReachability;
+		};
+		AA3FA2E6F837BBD72DA19FE747730016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BC7A42DFCDC320144C03B2CD854A63;
+			remoteInfo = jetfire;
+		};
+		B709274D794992599C8D472954E2E71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25B43F1C65EA115EE457931A9D6F95C1;
+			remoteInfo = WebsocketStompKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B73625A2AA469575E82A739A8EA9C3 /* ReachStateWWAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWWAN.h; path = RealReachability/FSM/ReachStateWWAN.h; sourceTree = "<group>"; };
+		0131D66A09F708B4012270DA33A28B77 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
+		040DA2653C94F96FDEAE767C9EDAEE30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		04E3171C5C53D740F15D07ACBB86CDB2 /* WebsocketStompKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebsocketStompKit-dummy.m"; sourceTree = "<group>"; };
+		06BE88BCD4F70A3EA53AF743A3ADD228 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		086CA44CA72C3FB2F2DA15D2B632063B /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
+		0CE67ED716F01AC307EE21EC610A6058 /* jetfire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jetfire-dummy.m"; sourceTree = "<group>"; };
+		0D939663C2C20E59171264BE148C065E /* libPods-WebsocketStompTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WebsocketStompTest.a"; path = "libPods-WebsocketStompTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BF9056E58FBF73FB7B5088CA7219F /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
+		17DC9CEBA0160EFE021603FF33C79874 /* FSMStateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMStateUtil.m; path = RealReachability/FSM/FSMStateUtil.m; sourceTree = "<group>"; };
+		1FE9108F361D9D2914A09F3234053C72 /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
+		27F43BA529ACE3FCE96BF542F59985FB /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
+		2C840F4BD74BE1A06D42E89E8229F147 /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
+		2F679A121CA353417E06BDC9E60C6461 /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
+		333FB121FF4743E62BD0BBFB1751D5AD /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealReachability.h; path = RealReachability/RealReachability.h; sourceTree = "<group>"; };
+		336B6CE66A4D48F9E7627D5C28C186F2 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
+		39D43480CFB1B8A53AB95AD7542971D7 /* LocalConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocalConnection.m; path = RealReachability/Connection/LocalConnection.m; sourceTree = "<group>"; };
+		3B1E43316AB6F97BEB643CC574389E04 /* Pods-WebsocketStompTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebsocketStompTest-resources.sh"; sourceTree = "<group>"; };
+		3B885BE9DEEAF353CFDA97DB3D768C23 /* JFRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JFRWebSocket.m; sourceTree = "<group>"; };
+		3EA970E9FC2303EB3A64C8A619945AAA /* Pods-WebsocketStompTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebsocketStompTest-dummy.m"; sourceTree = "<group>"; };
+		45533B772EB34D72AC1FC81E94720637 /* Pods-WebsocketStompTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebsocketStompTest-frameworks.sh"; sourceTree = "<group>"; };
+		4752FBA39E51A4260B98B9E3633AF3FF /* libjetfire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libjetfire.a; path = libjetfire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C8E552C6E49E4D50A2C5219799C3CE /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRealReachability.a; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E088FCD57E98570D6ED82F3FBE83DCC /* PingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingHelper.h; path = RealReachability/Ping/PingHelper.h; sourceTree = "<group>"; };
+		4EDD87E95EFE6893C51314120B2D3736 /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
+		506F20B7B5487F8AC768EA3210BCDDC9 /* Pods-WebsocketStompTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebsocketStompTest.release.xcconfig"; sourceTree = "<group>"; };
+		53AB55C699C8AFBFBB7CF7BBC82EADBC /* WebsocketStompKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebsocketStompKit.m; path = WebsocketStompKit/WebsocketStompKit.m; sourceTree = "<group>"; };
+		55C01C9D67E2656A94A5463F7DA95DDB /* PingFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingFoundation.m; path = RealReachability/Ping/PingFoundation.m; sourceTree = "<group>"; };
+		575DC803005AEACD72BB25AFAA5C5A68 /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
+		5CA45557E4AAB6E16AF49C0E8A252C6F /* jetfire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jetfire.xcconfig; sourceTree = "<group>"; };
+		65483AAB2821117AD13BA97942BBDEDC /* ReachState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachState.m; path = RealReachability/FSM/ReachState.m; sourceTree = "<group>"; };
+		6B684B7FC87FFEC4F63BA40250836FFC /* RealReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealReachability-dummy.m"; sourceTree = "<group>"; };
+		6FF8953913F771FEE4DB535ABE96F8C5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		70EA4716B36B64A43E3CA6633DAA05A7 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BE5BE75BB69C529CC2E4FF4675D037 /* Pods-WebsocketStompTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebsocketStompTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B0AE5FF3E8C16A23A853E8FC518C423 /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
+		802A1CCA78B1302421E0170C8B8E444F /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
+		86C00894B4A7208E952ECE309C674B36 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		8CA71048293A205201831EA255535080 /* WebsocketStompKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebsocketStompKit.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A4F5AECBB91A2F8238CE027193D2E96 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		AA40EFA5BE7041C6DD5AE68182B7EE7D /* Pods-WebsocketStompTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebsocketStompTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AF74658F36F77F9484AA9FDF13AF46AA /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		AFCE333B13E8A2EC289BDC7CE5DB5716 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		B1819F932153204753E72A60611F5B8B /* WebsocketStompKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebsocketStompKit.h; path = WebsocketStompKit/WebsocketStompKit.h; sourceTree = "<group>"; };
+		B4ADBFF8C3BAF899D81ED8CD9764D567 /* jetfire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jetfire-prefix.pch"; sourceTree = "<group>"; };
+		B4C8073C169207F33600596704BA5631 /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
+		B83BC7EA2A878766B13184DFA832604C /* JFRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JFRWebSocket.h; sourceTree = "<group>"; };
+		C8561ECB771741F2294E4B0DB3F1E524 /* RealReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-prefix.pch"; sourceTree = "<group>"; };
+		D5A39B70B43A928B9F70A4F113D9EC4E /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
+		DF796EC152A302D301AF6F26040AEBE5 /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
+		E379C77E0BD6D4FE6E1D7C944070C620 /* libWebsocketStompKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWebsocketStompKit.a; path = libWebsocketStompKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45743F1B3B13DB697E3153D6E127ADE /* WebsocketStompKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebsocketStompKit-prefix.pch"; sourceTree = "<group>"; };
+		E501DD4EA1B6F075B5054716BAA4785E /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
+		E7EF01250FB9BEBABDB323E608E6AA1D /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
+		EA983E5B9331E39A8E2A59695522D66C /* Pods-WebsocketStompTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebsocketStompTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE8CBB93327B19B38DB090AD7F0D5F77 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
+		EEB60981C810E65E0FF1E52DB41B6906 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		F7DB302EFB8C727DC755F5483B911810 /* RealReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584B6C537D080938EF44E89CAB7078A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666957DA220EC2E85CE0DA106E49A3BA /* CFNetwork.framework in Frameworks */,
+				8E9C8DEB7FE98CA3EB7B9012E9E67EEF /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B390963548D0CFF56553EF4467E62C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A6ABCCDB3BAAC0FEEB368E6F1EBB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC19DA3150FD3553545945555FDF030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CE9AF738AFFE5FBFCECD8A817FCFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A3BAE8A24D355DAC60A8158DAE0077 /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				B4C8073C169207F33600596704BA5631 /* FSMDefines.h */,
+				D5A39B70B43A928B9F70A4F113D9EC4E /* FSMEngine.h */,
+				E7EF01250FB9BEBABDB323E608E6AA1D /* FSMEngine.m */,
+				4EDD87E95EFE6893C51314120B2D3736 /* FSMStateUtil.h */,
+				17DC9CEBA0160EFE021603FF33C79874 /* FSMStateUtil.m */,
+				0131D66A09F708B4012270DA33A28B77 /* ReachState.h */,
+				65483AAB2821117AD13BA97942BBDEDC /* ReachState.m */,
+				2F679A121CA353417E06BDC9E60C6461 /* ReachStateLoading.h */,
+				E501DD4EA1B6F075B5054716BAA4785E /* ReachStateLoading.m */,
+				179BF9056E58FBF73FB7B5088CA7219F /* ReachStateUnloaded.h */,
+				EE8CBB93327B19B38DB090AD7F0D5F77 /* ReachStateUnloaded.m */,
+				7B0AE5FF3E8C16A23A853E8FC518C423 /* ReachStateUnReachable.h */,
+				336B6CE66A4D48F9E7627D5C28C186F2 /* ReachStateUnReachable.m */,
+				2C840F4BD74BE1A06D42E89E8229F147 /* ReachStateWIFI.h */,
+				802A1CCA78B1302421E0170C8B8E444F /* ReachStateWIFI.m */,
+				00B73625A2AA469575E82A739A8EA9C3 /* ReachStateWWAN.h */,
+				086CA44CA72C3FB2F2DA15D2B632063B /* ReachStateWWAN.m */,
+				333FB121FF4743E62BD0BBFB1751D5AD /* RealReachability.h */,
+				1FE9108F361D9D2914A09F3234053C72 /* RealReachability.m */,
+				62C32F1CFD0EA335C23F7E199161F349 /* Connection */,
+				CF2C8310CDBF0BB8420C02DCF425A804 /* Ping */,
+				4B8DBBE3D562402435B74D6955FFC5AA /* Support Files */,
+			);
+			name = RealReachability;
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		3214EA98C390D8832B6DEB2CA15D7FF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				889D2505403970256468EE7CD08F96C8 /* jetfire */,
+				23A3BAE8A24D355DAC60A8158DAE0077 /* RealReachability */,
+				7BE58828B258E12A62F2C9FF3CD5E7B8 /* SocketRocket */,
+				41D5B5E25851352484226DF71450B2FB /* WebsocketStompKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41D5B5E25851352484226DF71450B2FB /* WebsocketStompKit */ = {
+			isa = PBXGroup;
+			children = (
+				B1819F932153204753E72A60611F5B8B /* WebsocketStompKit.h */,
+				53AB55C699C8AFBFBB7CF7BBC82EADBC /* WebsocketStompKit.m */,
+				60C45676C1AF38DBB75867540F19DD39 /* Support Files */,
+			);
+			name = WebsocketStompKit;
+			path = WebsocketStompKit;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9730336350BD3AFA2FC69E6EDFE235C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8DBBE3D562402435B74D6955FFC5AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB302EFB8C727DC755F5483B911810 /* RealReachability.xcconfig */,
+				6B684B7FC87FFEC4F63BA40250836FFC /* RealReachability-dummy.m */,
+				C8561ECB771741F2294E4B0DB3F1E524 /* RealReachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RealReachability";
+			sourceTree = "<group>";
+		};
+		50F6A0B94C464A796A97E98DDC91CE1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D87B64FF79DC18568A342F953B3FAFD /* Pods-WebsocketStompTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CF85758BCFC4843006C17B85F0C7A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4752FBA39E51A4260B98B9E3633AF3FF /* libjetfire.a */,
+				0D939663C2C20E59171264BE148C065E /* libPods-WebsocketStompTest.a */,
+				49C8E552C6E49E4D50A2C5219799C3CE /* libRealReachability.a */,
+				70EA4716B36B64A43E3CA6633DAA05A7 /* libSocketRocket.a */,
+				E379C77E0BD6D4FE6E1D7C944070C620 /* libWebsocketStompKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C45676C1AF38DBB75867540F19DD39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CA71048293A205201831EA255535080 /* WebsocketStompKit.xcconfig */,
+				04E3171C5C53D740F15D07ACBB86CDB2 /* WebsocketStompKit-dummy.m */,
+				E45743F1B3B13DB697E3153D6E127ADE /* WebsocketStompKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebsocketStompKit";
+			sourceTree = "<group>";
+		};
+		62C32F1CFD0EA335C23F7E199161F349 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				575DC803005AEACD72BB25AFAA5C5A68 /* LocalConnection.h */,
+				39D43480CFB1B8A53AB95AD7542971D7 /* LocalConnection.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		6D87B64FF79DC18568A342F953B3FAFD /* Pods-WebsocketStompTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA983E5B9331E39A8E2A59695522D66C /* Pods-WebsocketStompTest-acknowledgements.markdown */,
+				74BE5BE75BB69C529CC2E4FF4675D037 /* Pods-WebsocketStompTest-acknowledgements.plist */,
+				3EA970E9FC2303EB3A64C8A619945AAA /* Pods-WebsocketStompTest-dummy.m */,
+				45533B772EB34D72AC1FC81E94720637 /* Pods-WebsocketStompTest-frameworks.sh */,
+				3B1E43316AB6F97BEB643CC574389E04 /* Pods-WebsocketStompTest-resources.sh */,
+				AA40EFA5BE7041C6DD5AE68182B7EE7D /* Pods-WebsocketStompTest.debug.xcconfig */,
+				506F20B7B5487F8AC768EA3210BCDDC9 /* Pods-WebsocketStompTest.release.xcconfig */,
+			);
+			name = "Pods-WebsocketStompTest";
+			path = "Target Support Files/Pods-WebsocketStompTest";
+			sourceTree = "<group>";
+		};
+		7BE58828B258E12A62F2C9FF3CD5E7B8 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				AF74658F36F77F9484AA9FDF13AF46AA /* SocketRocket.h */,
+				86C00894B4A7208E952ECE309C674B36 /* SRWebSocket.h */,
+				AFCE333B13E8A2EC289BDC7CE5DB5716 /* SRWebSocket.m */,
+				B054FFF1285FA78A8389E43A707CB8E3 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3214EA98C390D8832B6DEB2CA15D7FF8 /* Pods */,
+				5CF85758BCFC4843006C17B85F0C7A78 /* Products */,
+				50F6A0B94C464A796A97E98DDC91CE1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		889D2505403970256468EE7CD08F96C8 /* jetfire */ = {
+			isa = PBXGroup;
+			children = (
+				B83BC7EA2A878766B13184DFA832604C /* JFRWebSocket.h */,
+				3B885BE9DEEAF353CFDA97DB3D768C23 /* JFRWebSocket.m */,
+				EA56192935DC4CB9630BD1190E95BB76 /* Support Files */,
+			);
+			name = jetfire;
+			path = jetfire;
+			sourceTree = "<group>";
+		};
+		B054FFF1285FA78A8389E43A707CB8E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB60981C810E65E0FF1E52DB41B6906 /* SocketRocket.xcconfig */,
+				9A4F5AECBB91A2F8238CE027193D2E96 /* SocketRocket-dummy.m */,
+				06BE88BCD4F70A3EA53AF743A3ADD228 /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		B9730336350BD3AFA2FC69E6EDFE235C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8953913F771FEE4DB535ABE96F8C5 /* CFNetwork.framework */,
+				040DA2653C94F96FDEAE767C9EDAEE30 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF2C8310CDBF0BB8420C02DCF425A804 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				27F43BA529ACE3FCE96BF542F59985FB /* PingFoundation.h */,
+				55C01C9D67E2656A94A5463F7DA95DDB /* PingFoundation.m */,
+				4E088FCD57E98570D6ED82F3FBE83DCC /* PingHelper.h */,
+				DF796EC152A302D301AF6F26040AEBE5 /* PingHelper.m */,
+			);
+			name = Ping;
+			sourceTree = "<group>";
+		};
+		EA56192935DC4CB9630BD1190E95BB76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA45557E4AAB6E16AF49C0E8A252C6F /* jetfire.xcconfig */,
+				0CE67ED716F01AC307EE21EC610A6058 /* jetfire-dummy.m */,
+				B4ADBFF8C3BAF899D81ED8CD9764D567 /* jetfire-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/jetfire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C4964E3C810139A2E455660C2063505 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3DCA636A111B74C68127A9DC718444 /* FSMDefines.h in Headers */,
+				625F5EFE87614D712F9D9B9ADE2EDE46 /* FSMEngine.h in Headers */,
+				3A145150E7FE78690ECAC248C659495C /* FSMStateUtil.h in Headers */,
+				959287D5FD7D032271383FFD9AD63E3D /* LocalConnection.h in Headers */,
+				0774EE31DB17F79F8887A5E5D2266F9E /* PingFoundation.h in Headers */,
+				CB5FF73960C6B031A3A95F7813EACC4B /* PingHelper.h in Headers */,
+				C0D6F0F0567A485FDD121414F3BFD0F8 /* ReachState.h in Headers */,
+				134C5D43D601EF04789A1F1F8512C413 /* ReachStateLoading.h in Headers */,
+				695A9CE7A25773138063329293BF874E /* ReachStateUnloaded.h in Headers */,
+				936DB023278C80DAD5FC7850AC772CD6 /* ReachStateUnReachable.h in Headers */,
+				66CD0E43101451372AEEB22BA20AC601 /* ReachStateWIFI.h in Headers */,
+				83BF5E47ED2D3E529E81364728DEDCA4 /* ReachStateWWAN.h in Headers */,
+				03E345FA2A63478A1969665544035D96 /* RealReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF7918855A36E4A69A6D049B136449F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8314F6BE92C97F5284B1FA35DDCEB8E0 /* JFRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6DD7781BAF0BDDFEBD2232CA2F3342 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A880C667E9DDF7467EEF10874965E1 /* WebsocketStompKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7296CAD79B23E6A145C32A9B49B4627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DD1BE6D96AE9020C026B4EAB3ED338 /* SocketRocket.h in Headers */,
+				F6B48C429A34FC74F2DEBA605D8FE480 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25B43F1C65EA115EE457931A9D6F95C1 /* WebsocketStompKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8213CDE5BA04AEDBCD56298F517CB53 /* Build configuration list for PBXNativeTarget "WebsocketStompKit" */;
+			buildPhases = (
+				8A3BADD4B3E8B2D9E88467940FFA88E7 /* Sources */,
+				9B390963548D0CFF56553EF4467E62C5 /* Frameworks */,
+				AD6DD7781BAF0BDDFEBD2232CA2F3342 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F74551FEC2ECCAF117A57C7A0330E1 /* PBXTargetDependency */,
+			);
+			name = WebsocketStompKit;
+			productName = WebsocketStompKit;
+			productReference = E379C77E0BD6D4FE6E1D7C944070C620 /* libWebsocketStompKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4041A91DE69D7D7C09C8F44EEFBCC68F /* Pods-WebsocketStompTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE92D2D7DCFF7981512B2DA151BC950A /* Build configuration list for PBXNativeTarget "Pods-WebsocketStompTest" */;
+			buildPhases = (
+				8B05475227D34575861D1E8FC3C3EDD9 /* Sources */,
+				E0CE9AF738AFFE5FBFCECD8A817FCFC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58CE133AB42F67073E87BD96DA486246 /* PBXTargetDependency */,
+				CD7B3F3D2A56B12B15F4145D776A59FC /* PBXTargetDependency */,
+				209D7485C6F12A1762BCA8773FE55C02 /* PBXTargetDependency */,
+				06BCD50BB52388600A51F0D688B10B04 /* PBXTargetDependency */,
+			);
+			name = "Pods-WebsocketStompTest";
+			productName = "Pods-WebsocketStompTest";
+			productReference = 0D939663C2C20E59171264BE148C065E /* libPods-WebsocketStompTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6319B2CA99D25B8D9C6E6C182E5E966E /* RealReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56523C4861ECC03E3FD0BA7D1E46F68 /* Build configuration list for PBXNativeTarget "RealReachability" */;
+			buildPhases = (
+				10D36DB34771772E16599459641F9B39 /* Sources */,
+				B5A6ABCCDB3BAAC0FEEB368E6F1EBB67 /* Frameworks */,
+				2C4964E3C810139A2E455660C2063505 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealReachability;
+			productName = RealReachability;
+			productReference = 49C8E552C6E49E4D50A2C5219799C3CE /* libRealReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A88D2DA3F2E5E34E1336C15284A18C6B /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5C7ED8AC97C7EFF0191CCA34FC0BE /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				B35452BB7CCF2412E0B78511F5A17627 /* Sources */,
+				584B6C537D080938EF44E89CAB7078A4 /* Frameworks */,
+				C7296CAD79B23E6A145C32A9B49B4627 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 70EA4716B36B64A43E3CA6633DAA05A7 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9BC7A42DFCDC320144C03B2CD854A63 /* jetfire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D817CD9B76889BB6AE689DA34067EA /* Build configuration list for PBXNativeTarget "jetfire" */;
+			buildPhases = (
+				5FEE2B4F835B37321FD86092615702C2 /* Sources */,
+				CBC19DA3150FD3553545945555FDF030 /* Frameworks */,
+				4EF7918855A36E4A69A6D049B136449F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jetfire;
+			productName = jetfire;
+			productReference = 4752FBA39E51A4260B98B9E3633AF3FF /* libjetfire.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5CF85758BCFC4843006C17B85F0C7A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BC7A42DFCDC320144C03B2CD854A63 /* jetfire */,
+				4041A91DE69D7D7C09C8F44EEFBCC68F /* Pods-WebsocketStompTest */,
+				6319B2CA99D25B8D9C6E6C182E5E966E /* RealReachability */,
+				A88D2DA3F2E5E34E1336C15284A18C6B /* SocketRocket */,
+				25B43F1C65EA115EE457931A9D6F95C1 /* WebsocketStompKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D36DB34771772E16599459641F9B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC00117D4D0699BCB65759C3A90F5A /* FSMEngine.m in Sources */,
+				62E9A72E3866C31F092B794A1F1A4019 /* FSMStateUtil.m in Sources */,
+				5B1E596AE511B83A6B679ADFAD60C80D /* LocalConnection.m in Sources */,
+				D6D5E3CC6B075AD7EF2EE79201883FED /* PingFoundation.m in Sources */,
+				163C5F90DD40DECAA0AA267EE0C5A52B /* PingHelper.m in Sources */,
+				5C4AE0B5661DF3C4306E54C364C2E264 /* ReachState.m in Sources */,
+				2848F28947436B07D6E2BF07A2F5EBB5 /* ReachStateLoading.m in Sources */,
+				A0A77A6165E6271BBC9B2BFCA3514708 /* ReachStateUnloaded.m in Sources */,
+				F0953FD0DF32DE40EDA95961C7EB1891 /* ReachStateUnReachable.m in Sources */,
+				CFB371C94DC03EF3565E341B4AA45CF2 /* ReachStateWIFI.m in Sources */,
+				70A0848A0EAF21A4B7B27FAC5CFC8DF9 /* ReachStateWWAN.m in Sources */,
+				6AEFC6582BF91431259EE3D442C44986 /* RealReachability-dummy.m in Sources */,
+				941570EED872977E84AEAD9ADDB6EFFD /* RealReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE2B4F835B37321FD86092615702C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654DDC63A60D7EB17D70E0D1308E5EF /* jetfire-dummy.m in Sources */,
+				224D88332BFE1B79B676ECB5A8365A10 /* JFRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BADD4B3E8B2D9E88467940FFA88E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A99EB8FB235377144516F65BFEFFD41 /* WebsocketStompKit-dummy.m in Sources */,
+				FFCBFD9182D158E8FB16002C79398AAD /* WebsocketStompKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05475227D34575861D1E8FC3C3EDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D8A2A90B716085C2EB91AF3D55B0EB /* Pods-WebsocketStompTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35452BB7CCF2412E0B78511F5A17627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30567FC279A2BDFF02D88F9B9619273E /* SocketRocket-dummy.m in Sources */,
+				AFC4C0B51E0880FBA52CF0B1237A1C24 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06BCD50BB52388600A51F0D688B10B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jetfire;
+			target = A9BC7A42DFCDC320144C03B2CD854A63 /* jetfire */;
+			targetProxy = AA3FA2E6F837BBD72DA19FE747730016 /* PBXContainerItemProxy */;
+		};
+		209D7485C6F12A1762BCA8773FE55C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebsocketStompKit;
+			target = 25B43F1C65EA115EE457931A9D6F95C1 /* WebsocketStompKit */;
+			targetProxy = B709274D794992599C8D472954E2E71F /* PBXContainerItemProxy */;
+		};
+		58CE133AB42F67073E87BD96DA486246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealReachability;
+			target = 6319B2CA99D25B8D9C6E6C182E5E966E /* RealReachability */;
+			targetProxy = A811DE14CC875CB6930BD3D2A40E32E3 /* PBXContainerItemProxy */;
+		};
+		CD7B3F3D2A56B12B15F4145D776A59FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = A88D2DA3F2E5E34E1336C15284A18C6B /* SocketRocket */;
+			targetProxy = 0C36E7196041842B1768AD0D3D64AC4B /* PBXContainerItemProxy */;
+		};
+		D9F74551FEC2ECCAF117A57C7A0330E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jetfire;
+			target = A9BC7A42DFCDC320144C03B2CD854A63 /* jetfire */;
+			targetProxy = 98FD37E1E36B9F50A24FCD8306169AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		089274824A6ADABA69142946F84BC54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506F20B7B5487F8AC768EA3210BCDDC9 /* Pods-WebsocketStompTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E4C7E9C67D2AF1F23C6FF79C2A4684D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA45557E4AAB6E16AF49C0E8A252C6F /* jetfire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/jetfire/jetfire-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = jetfire;
+				PRODUCT_NAME = jetfire;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E2A0F3F78A5F121AA20B82663B2979B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA40EFA5BE7041C6DD5AE68182B7EE7D /* Pods-WebsocketStompTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A880353E210395C423E514EBD62285B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DB302EFB8C727DC755F5483B911810 /* RealReachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RealReachability;
+				PRODUCT_NAME = RealReachability;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06FA4D7AA8983279BBF3849257E2E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DB302EFB8C727DC755F5483B911810 /* RealReachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RealReachability;
+				PRODUCT_NAME = RealReachability;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C1F6EC7F9279F157A33488FC78ED0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA45557E4AAB6E16AF49C0E8A252C6F /* jetfire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/jetfire/jetfire-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = jetfire;
+				PRODUCT_NAME = jetfire;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E551CA18041E1B0F4228293B86761149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA71048293A205201831EA255535080 /* WebsocketStompKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WebsocketStompKit/WebsocketStompKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WebsocketStompKit;
+				PRODUCT_NAME = WebsocketStompKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA424B035FABC18672B3A21C09046E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA71048293A205201831EA255535080 /* WebsocketStompKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WebsocketStompKit/WebsocketStompKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WebsocketStompKit;
+				PRODUCT_NAME = WebsocketStompKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3049B83E1F1F972A69AAFB379DB004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB60981C810E65E0FF1E52DB41B6906 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FBBFA51708D669C5850E791825A22D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB60981C810E65E0FF1E52DB41B6906 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5C7ED8AC97C7EFF0191CCA34FC0BE /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3049B83E1F1F972A69AAFB379DB004 /* Debug */,
+				FBBFA51708D669C5850E791825A22D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8213CDE5BA04AEDBCD56298F517CB53 /* Build configuration list for PBXNativeTarget "WebsocketStompKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E551CA18041E1B0F4228293B86761149 /* Debug */,
+				EA424B035FABC18672B3A21C09046E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D817CD9B76889BB6AE689DA34067EA /* Build configuration list for PBXNativeTarget "jetfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4C7E9C67D2AF1F23C6FF79C2A4684D /* Debug */,
+				E2C1F6EC7F9279F157A33488FC78ED0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56523C4861ECC03E3FD0BA7D1E46F68 /* Build configuration list for PBXNativeTarget "RealReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06FA4D7AA8983279BBF3849257E2E89 /* Debug */,
+				A880353E210395C423E514EBD62285B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE92D2D7DCFF7981512B2DA151BC950A /* Build configuration list for PBXNativeTarget "Pods-WebsocketStompTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2A0F3F78A5F121AA20B82663B2979B /* Debug */,
+				089274824A6ADABA69142946F84BC54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,40 @@
+PODS:
+  - jetfire (0.1.2)
+  - RealReachability (1.1.9):
+    - RealReachability/Connection (= 1.1.9)
+    - RealReachability/Ping (= 1.1.9)
+  - RealReachability/Connection (1.1.9)
+  - RealReachability/Ping (1.1.9)
+  - SocketRocket (0.5.1)
+  - WebsocketStompKit (0.1.1):
+    - jetfire (= 0.1.2)
+
+DEPENDENCIES:
+  - RealReachability (~> 1.1.9)
+  - SocketRocket (~> 0.5.1)
+  - WebsocketStompKit (from `https://github.com/rguldener/WebsocketStompKit.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - jetfire
+    - RealReachability
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  WebsocketStompKit:
+    :git: https://github.com/rguldener/WebsocketStompKit.git
+
+CHECKOUT OPTIONS:
+  WebsocketStompKit:
+    :commit: ea57d8722e8bc1dd318c1de9328e882983a69d2c
+    :git: https://github.com/rguldener/WebsocketStompKit.git
+
+SPEC CHECKSUMS:
+  jetfire: 5e823aa9248d3de1fac2b7b6d9c6e31ab7d90f0c
+  RealReachability: a8c483900986a0f3305733961effbfbb00637a02
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WebsocketStompKit: 31de925ffc7094b569dedcd4a9a4838e649e0860
+
+PODFILE CHECKSUM: c300c73bf5d703483cca88b90bdda042e1315758
+
+COCOAPODS: 1.5.3
